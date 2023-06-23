@@ -12,6 +12,8 @@
 		A4F94CFD2A45A81900EE08C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F94CFC2A45A81900EE08C4 /* Assets.xcassets */; };
 		A4F94D002A45A81900EE08C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F94CFF2A45A81900EE08C4 /* Preview Assets.xcassets */; };
 		A4F94D0F2A45A9B900EE08C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D0E2A45A9B900EE08C4 /* HomeView.swift */; };
+		A4F94D112A45AF7400EE08C4 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D102A45AF7400EE08C4 /* TopMoversView.swift */; };
+		A4F94D132A45AF8400EE08C4 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D122A45AF8400EE08C4 /* TopMoversItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A4F94CFC2A45A81900EE08C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F94CFF2A45A81900EE08C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4F94D0E2A45A9B900EE08C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4F94D102A45AF7400EE08C4 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		A4F94D122A45AF8400EE08C4 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				A4F94D0E2A45A9B900EE08C4 /* HomeView.swift */,
+				A4F94D102A45AF7400EE08C4 /* TopMoversView.swift */,
+				A4F94D122A45AF8400EE08C4 /* TopMoversItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,9 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F94D112A45AF7400EE08C4 /* TopMoversView.swift in Sources */,
 				A4F94D0F2A45A9B900EE08C4 /* HomeView.swift in Sources */,
 				A4F94CFB2A45A81900EE08C4 /* ContentView.swift in Sources */,
 				A4F94CF92A45A81900EE08C4 /* SwiftCoinApp.swift in Sources */,
+				A4F94D132A45AF8400EE08C4 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
