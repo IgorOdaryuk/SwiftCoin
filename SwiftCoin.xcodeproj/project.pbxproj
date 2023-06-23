@@ -16,6 +16,7 @@
 		A4F94D132A45AF8400EE08C4 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D122A45AF8400EE08C4 /* TopMoversItemView.swift */; };
 		A4F94D152A45B95200EE08C4 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D142A45B95200EE08C4 /* AllCoinsView.swift */; };
 		A4F94D172A45B96700EE08C4 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D162A45B96700EE08C4 /* CoinRowView.swift */; };
+		A4F94D192A45C58D00EE08C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F94D182A45C58D00EE08C4 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A4F94D122A45AF8400EE08C4 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 		A4F94D142A45B95200EE08C4 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		A4F94D162A45B96700EE08C4 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		A4F94D182A45C58D00EE08C4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		A4F94D0D2A45A93600EE08C4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A4F94D182A45C58D00EE08C4 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				A4F94D112A45AF7400EE08C4 /* TopMoversView.swift in Sources */,
 				A4F94D152A45B95200EE08C4 /* AllCoinsView.swift in Sources */,
 				A4F94D0F2A45A9B900EE08C4 /* HomeView.swift in Sources */,
+				A4F94D192A45C58D00EE08C4 /* HomeViewModel.swift in Sources */,
 				A4F94CFB2A45A81900EE08C4 /* ContentView.swift in Sources */,
 				A4F94CF92A45A81900EE08C4 /* SwiftCoinApp.swift in Sources */,
 				A4F94D172A45B96700EE08C4 /* CoinRowView.swift in Sources */,
